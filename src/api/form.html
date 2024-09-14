@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Student Marks Form</title>
+    <style>
+        .form-container {
+            width: 50%;
+            margin: 0 auto;
+        }
+        .student {
+            margin-bottom: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="form-container">
+        <h1>Enter Marks for Students</h1>
+        <form id="marksForm">
+            <div class="student">
+                <h3>Student 1</h3>
+                <label for="student1-maths">Maths: </label>
+                <input type="number" id="student1-maths" required><br>
+                <label for="student1-science">Science: </label>
+                <input type="number" id="student1-science" required><br>
+                <label for="student1-english">English: </label>
+                <input type="number" id="student1-english" required><br>
+            </div>
+            <div class="student">
+                <h3>Student 2</h3>
+                <label for="student2-maths">Maths: </label>
+                <input type="number" id="student2-maths" required><br>
+                <label for="student2-science">Science: </label>
+                <input type="number" id="student2-science" required><br>
+                <label for="student2-english">English: </label>
+                <input type="number" id="student2-english" required><br>
+            </div>
+            <div class="student">
+                <h3>Student 3</h3>
+                <label for="student3-maths">Maths: </label>
+                <input type="number" id="student3-maths" required><br>
+                <label for="student3-science">Science: </label>
+                <input type="number" id="student3-science" required><br>
+                <label for="student3-english">English: </label>
+                <input type="number" id="student3-english" required><br>
+            </div>
+            <div class="student">
+                <h3>Student 4</h3>
+                <label for="student4-maths">Maths: </label>
+                <input type="number" id="student4-maths" required><br>
+                <label for="student4-science">Science: </label>
+                <input type="number" id="student4-science" required><br>
+                <label for="student4-english">English: </label>
+                <input type="number" id="student4-english" required><br>
+            </div>
+            <div class="student">
+                <h3>Student 5</h3>
+                <label for="student5-maths">Maths: </label>
+                <input type="number" id="student5-maths" required><br>
+                <label for="student5-science">Science: </label>
+                <input type="number" id="student5-science" required><br>
+                <label for="student5-english">English: </label>
+                <input type="number" id="student5-english" required><br>
+            </div>
+            <button type="button" onclick="calculatePercentages()">Calculate Percentages</button>
+        </form>
+        <div id="results"></div>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>

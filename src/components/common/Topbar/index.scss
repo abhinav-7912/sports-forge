@@ -1,0 +1,75 @@
+.topbar-main{
+    width: 100%;
+    height: 70px;
+    background-color:#DBD8E3;
+    display: flex;
+    align-items: center;
+}
+.topbar-logo{
+    width: 200px;
+    margin-left: 20px;
+}
+.react-icons{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 40%;
+    margin-left:  50px;
+}
+.react-icon{
+    cursor: pointer;
+    color: #2A2438 ;
+}
+.react-icon:hover{
+    color: #5C5470;
+}
+.user-logo{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+    position: absolute;
+    right: 20px;
+    cursor: pointer;
+}
+.popup-position {
+    position: absolute;
+    right: 10px;
+    top: 65px;
+    z-index: 99;
+  }
+  .search-results {
+    position: absolute;
+    left: 235px;
+    top: 60px;
+    width: 240px;
+    height: auto;
+    background-color: #DBD8E3;
+    border-radius: 10px;
+    border: 1px solid #5C5470;
+    z-index: 99;
+  
+    .search-inner {
+      display: flex;
+      align-items: center;
+      padding: 10px;
+      cursor: pointer;
+      border-radius: 10px;
+      img {
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+        object-fit: cover;
+      }
+  
+      .name {
+        font-family: system-ui;
+        font-size: 18px;
+
+      }
+    }
+  
+    .search-inner:hover {
+      background-color: #b4B4B4;
+    }
+  }

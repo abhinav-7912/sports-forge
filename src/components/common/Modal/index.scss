@@ -1,0 +1,42 @@
+.modal-input {
+  border: none !important;
+  background-color: white;
+  outline: none;
+  color:  #2A2438;
+  font-size: 16px;
+  font-family: system-ui;
+  width: 100%;
+  resize: none;
+}
+.post-btn{
+  background-color: #5C5470;
+  color: #DBD8E3;
+}
+.ql-container.ql-snow, 
+.ql-toolbar.ql-snow {
+  border: none !important;
+}
+
+.ql-container.ql-snow {
+  font-size: 16px;
+  font-family: system-ui;
+}
+
+.picture-icon {
+  color: #5C5470;
+  cursor: pointer;
+  position: absolute;
+  bottom: 20px;
+}
+
+.preview-image {
+  width: 100%;
+  margin-top: 20px;
+}
+
+.posts-body {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}

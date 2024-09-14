@@ -1,0 +1,82 @@
+.profile-card {
+    width: auto;
+    height: auto;
+    background-color: #DBD8E3;
+    border: 1px solid #352F44;
+    margin: 30px;
+    border-radius: 5px;
+    padding: 20px;
+    position: relative;
+    .profile-info {
+      display: flex;
+      justify-content: space-between;
+      font-weight: 400;
+      .profile-image {
+        width: 200px;
+        height: 200px;
+        object-fit: contain;
+        border-radius: 50%;
+        border: 2px solid #cacaca;
+        padding: 5px;
+        cursor: pointer;
+      }
+      .right-info {
+        margin-top: 284px;
+        margin-right: 20px;
+        font-weight: 400;
+        .college,
+        .company,
+        .sport {
+          font-family: system-ui;
+          color: #2A2438;
+          font-size: 14px;
+          font-weight: 600;
+          line-height: 30px;
+        }
+  
+        .company {
+          margin-top: -15px;
+        }
+      }
+    }
+  
+    .website {
+      color: #352F44 !important;
+      -webkit-link: #352F44;
+    }
+    .skill-label {
+      font-weight: 600;
+    }
+    .edit-btn {
+      position: absolute;
+      right: 20px;
+  
+      .edit-icon {
+        cursor: pointer;
+        padding: 10px;
+      }
+  
+      .edit-icon:hover {
+        background-color: rgb(197, 197, 197);
+        padding: 10px;
+        border-radius: 50%;
+      }
+    }
+    .userName {
+      font-family: system-ui;
+      color: #2A2438;
+      font-weight: 600;
+      font-size: 24px;
+      margin-top: 10px;
+    }
+  
+    .heading {
+      margin-top: -25px;
+      font-family: system-ui;
+      font-size: 16px;
+      font-weight: 400;
+      color: #352F44;
+      width: 320px;
+      line-height: 20px;
+    }
+  }

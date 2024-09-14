@@ -1,0 +1,48 @@
+@import url('./components/common/Loader/common.scss');
+
+
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+  color:  #2A2438;
+  background-color: whitesmoke;
+
+}
+
+.common-input{
+  height: 20px;
+  padding: 10px;
+  background-color: #5C5470;
+  outline: none;
+  border: 1px solid #2A2438;
+  color: #DBD8E3;
+  border-radius: 3px;
+  font-family: system-ui;
+  font-size: 16px;
+}
+.common-inputs:focus{
+outline: 1px solid #5C5470;
+}
+::placeholder{
+  font-family: system-ui;
+  font-size: 16px;
+}
+.common-textArea {
+  padding: 10px;
+  background-color: #5C5470;
+  outline: none;
+  border: 1px solid #2A2438;
+  color: #DBD8E3;
+  border-radius: 3px;
+  font-family: system-ui;
+  font-size: 16px;
+}
+
+.common-textArea:focus {
+  outline: 1px solid #5C5470;
+}
+::placeholder {
+  font-family: system-ui;
+  font-size: 16px;
+}

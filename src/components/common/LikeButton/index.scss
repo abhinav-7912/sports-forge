@@ -1,0 +1,111 @@
+.like-container {
+    display: flex;
+    justify-content: center;
+  
+    flex-direction: column;
+    gap: 5px;
+    padding: 7px 10px;
+    cursor: pointer;
+    margin-bottom: -20px;
+  
+    .like-comment {
+      display: grid;
+      grid-template-columns: auto auto auto auto;
+      margin-top: 5px;
+    }
+  
+    .comment-input {
+      height: 40px;
+      background-color: #5C5470;
+      padding-left: 10px;
+      border-radius: 30px;
+      border: 1px solid #352F44;
+      font-family: system-ui;
+      color: #DBD8E3;
+      font-size: 16px;
+    }
+    ::placeholder {
+      color: #DBD8E3;
+    }
+  
+  
+    .comment-input:focus {
+      outline: 1px solid #DBD8E3;
+      color: #DBD8E3;
+    }
+    .add-comment-btn {
+      width: 150px;
+      height: 35px;
+      background-color: #5C5470;
+      border: 1px solid #352F44;
+      color: #DBD8E3;
+      outline: none;
+      border: none;
+      border-radius: 30px;
+      cursor: pointer;
+      margin-top: 15px;
+      margin-bottom: 15px;
+    }
+    .all-comments {
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+      background-color: #5C5470;
+      
+      border-radius: 10px;
+      position: relative;
+      margin: 10px;
+      .name {
+        color: #2A2438;
+        text-decoration: none;
+        margin-left: 10px;
+        margin-top: 10px;
+        color: #DBD8E3;
+      }
+  
+      .comment {
+        margin-left: 10px;
+        margin-top: 0px;
+        color: #DBD8E3;
+      }
+  
+      .timestamp {
+        position: absolute;
+        right: 10px; 
+        top: 10px;
+        color: #DBD8E3;
+      }
+    }
+    .hr-line {
+      margin-top: -17px;
+      hr {
+        border-top: 1px solid #352F44;
+      }
+    }
+    p {
+      font-family: Inter, sans-serif;
+      font-weight: 400;
+      color: #352F44;
+      font-size: 14px;
+      margin-left: 5px;
+    }
+  
+    .likes-comment-inner {
+      display: flex;
+      align-items: center;
+      margin-top: -20px;
+      .blue {
+        color: #352F44;
+      }
+  
+      .black {
+        color: #352F44;
+      }
+      p {
+        font-family: Inter, sans-serif;
+        font-weight: 600;
+        color: #352F44;
+        font-size: 16px;
+      }
+    }
+  }
